@@ -94,7 +94,7 @@ font-family: 'Quicksand', sans-serif;
 }
 
 .myButton:hover {
-    background-color:#e69708;
+    background-color:#1A2980;
 }
 
 .myButton:active {
@@ -134,7 +134,7 @@ font-family: 'Quicksand', sans-serif;
 footer div {
   height: 100%;
   font-family: 'Raleway', sans-serif;
-  font-size: 14px;
+  font-size: 17px;
   display: flex;
   align-content: center;
   justify-content: space-between;
@@ -150,6 +150,7 @@ footer div {
 }
 
 .icons {
+  font-size: 30px;
   list-style-type: none;
   display: inline-flex;
 }
