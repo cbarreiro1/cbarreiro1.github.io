@@ -28,20 +28,14 @@ header {
 
 main {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Ensures three equal columns */
+  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr) ) ;
   grid-gap: 20px;
   margin: 44px 40px;
+
   justify-items: center;
   justify-content: center;
   align-items: stretch;
   align-content: center;
-}
-
-main > div:nth-child(4),
-main > div:nth-child(5) {
-  grid-column: span 3; /* Forces the two bottom boxes to be centered */
-  justify-self: center; /* Centers the two bottom boxes */
-  width: calc(33.33% - 20px); /* Adjust the width to fit two items in the center */
 }
 
 h1 {
